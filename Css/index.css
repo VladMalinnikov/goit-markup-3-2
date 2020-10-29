@@ -1,0 +1,218 @@
+:root {
+    --main-font: "roboto", serif;
+    --secondary-font: "raleway", sans-serif;
+    --aacent-color: #2196f3;
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+  }
+  body {
+    font-family: var(--main-font);
+    font-style: normal;
+    letter-spacing: 0.03em;
+  }
+  
+  /* ==========  LOGO  ========== */
+  .logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+  }
+  .logo-web {
+    color: var(--aacent-color);
+  }
+  .logo-studio-dark {
+    color: #000000;
+  }
+  /* ========== END LOGO  ========== */
+  
+  /* ============ NAV ============ */
+  .nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+  }
+  .address {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+  }
+  .header-address-link {
+    color: var(--main-text-color);
+  }
+  .nav-list-link:hover,
+  .nav-list-link:focus,
+  .header-address-link:hover,
+  .header-address-link:focus {
+    color: var(--aacent-color);
+  }
+  /* ============ END NAV ============ */
+  
+  /* ============ HERO ============ */
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .modal-btn {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* ============ END HERO ============ */
+  
+  /* ============ ADVANTAGES ============ */
+  .advantages-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+  }
+  .advantages-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    color: var(--main-text-color);
+  }
+  /* ============ END ADVANTAGES ============ */
+  
+  /* ======== SERVICES & TEAM CARD TITLES ======== */
+  .services-title,
+  .teamcard-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    color: var(--title-text-color);
+  }
+  /* ============ END SERVICE ============ */
+  
+  /* ============ TEAM CARD ============ */
+  .teamcard-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-text-color);
+  }
+  .teamcard-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--main-text-color);
+  }
+  /* ============ END TEAM CARD ============ */
+  
+  /* ============ FOOTER ============ */
+  .maps {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    /* color: #ffffff; */
+  }
+  .footer-mail-link,
+  .footer-tel-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    /* color: rgba(255, 255, 255, 0.6); */
+  }
+  /* ============ END FOOTER ============ */
+  
+  /* ============ PORTFOLIO ============ */
+  .projects-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .projects-btn:hover,
+  .projects-btn:focus {
+    color: #ffffff;
+    background-color: var(--aacent-color);
+  }
+  .projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+  }
+  .projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.667;
+    color: var(--main-text-color);
+  }
+  /* ============ END PORTFOLIO ============ */
+  
+  /* ============ COMPONENTS ============ */
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .currentpage {
+    color: var(--aacent-color);
+  }
+  /* ========== END COMPONENTS ========== */
+  .projects-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .projects-btn:hover,
+  .projects-btn:focus {
+    color: #ffffff;
+    background-color: var(--aacent-color);
+  }
+  .projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+  }
+  .projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.667;
+    color: var(--main-text-color);
+  }
+  /* ============ END PORTFOLIO ============ */
+  
+  /* ============ COMPONENTS ============ */
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .currentpage {
+    color: var(--aacent-color);
+  }
