@@ -27,7 +27,14 @@
   /* ========== END LOGO  ========== */
   
   /* ============ NAV ============ */
-  .nav-list-link {
+  .nav-list {
+    display: flex;
+
+  }
+  .nav-list{background-color: chocolate;}
+
+  .nav-list-item {margin-right: 40px;}
+  .nav-list-  link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
